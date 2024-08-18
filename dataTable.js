@@ -15,9 +15,7 @@ async function LoadData() {
   if (!tHeader || !tBody) {
     console.error("Table header or body element not found");
     return;
-  } else {
-    console.log("tHeader and tBody were found!");
-  }
+  } 
 
   let tHeaderContent = `<th>City</th>`;
   routes.forEach((data) => {
