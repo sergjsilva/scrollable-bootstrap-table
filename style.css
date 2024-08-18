@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.table-fixed {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 400px;
+}
+
+table {
+  min-width: max-content;
+  border-collapse: separate;
+}
+
+.table-fixed th,
+.table-fixed td {
+  padding: 10px;
+}
+
+.table-fixed th {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #fff; /* Background color to cover content while scrolling */
+  z-index: 2; /* Ensure header is above table body */
+}
+
+.table-fixed th:first-child,
+.table-fixed td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  /* background-color: #fff; /* Background color to cover content behind */
+  z-index: 1px; /* Ensure the fixed column is above other content */
+  /*border-right: 1px solid #ddd; /* Optional border for clarity */
+}
+
+th:first-child {
+  z-index: 3;
+}
+
+.table-fixed th {
+  background-color: rgb(42, 41, 41);
+  color: #fff;
+}
