@@ -9,6 +9,11 @@ A project showcasing a scrollable table using Bootstrap. The table includes both
 - Fixed first column
 - Responsive design
 
+## Demo
+
+You can view a live demo of the project at [live demo link]([(https://scrollable-bootstrap-table.pages.dev/)].
+
+
 ## Installation
 
 1. **Clone the repository:**
