@@ -19,4 +19,4 @@ You can view a live demo of the project at [live demo link]([(https://scrollable
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/scrollable-bootstrap-table.git
+   git clone https://github.com/sergjsilva/scrollable-bootstrap-table.git
