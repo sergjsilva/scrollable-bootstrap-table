@@ -11,7 +11,7 @@ A project showcasing a scrollable table using Bootstrap. The table includes both
 
 ## Demo
 
-You can view a live demo of the project at [live demo link]([(https://scrollable-bootstrap-table.pages.dev/)].
+You can view a live demo of the project at [https://scrollable-bootstrap-table.pages.dev](https://scrollable-bootstrap-table.pages.dev/).
 
 
 ## Installation
